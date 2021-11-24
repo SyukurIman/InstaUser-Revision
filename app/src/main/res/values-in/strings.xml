@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InstaUser</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_searh">Pencarian</string>
+    <string name="title_About">Tentang</string>
+
+    <!--Content not View-->
+    <string name="username">UserName</string>
+    <string name="banner_content">Banner Content</string>
+    <string name="imagefollower">ImageFollower</string>
+    <string name="tombol">Tombol</string>
+    <string name="imagelike">imagelike</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="type_account">Type Account</string>
+
+
+    <string name="full_name">Nama</string>
+    <string name="location">Lokasi</string>
+    <string name="blog_and_website">Blog and Website</string>
+    <string name="language">Bahasa</string>
+    <string name="coming_soon">Akan Datang</string>
+    <string name="Error">Tidak Dapat Memuat</string>
+
+    <string name="title_alert">Tidak Ada Koneksi Internet </string>
+    <string name="message_alert">Silakan periksa koneksi internet anda dan coba lagi</string>
+    <string name="close">Tutup</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="dark_theme">Tema Gelap</string>
+    <string name="favorite">Favorit</string>
+    <string name="no_item_favorite">Tidak ada yang difavoritkan !!</string>
+    <string name="Fav_succes">Berhasil Ditambahkan</string>
+    <string name="fav_delete">Berhasil Dihapus</string>
+    <string name="error_message">Terjadi kesalahan, silahkan coba lagi</string>
+    <string name="error_code">Kesalahan Kode</string>
+    <string name="Favorited">Terfavoritkan</string>
+    <string name="Follower">Pengikut</string>
+    <string name="Following">Mengikuti</string>
+    <string name="nothing">Tidak ada yang terlihat</string>
+    <string name="not_found">Tidak ditemukan</string>
+    <string name="All">Semua</string>
+    <string name="copyright_ataiman30">©Copyright AtaIman30</string>
+</resources>

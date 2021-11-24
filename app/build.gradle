@@ -1,0 +1,112 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+}
+
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId 'com.syukur.instauser'
+        minSdk 26
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField("String", "GITHUB_TOKEN", '"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"')
+        buildConfigField("String", "TOKEN_HOME", '"309a05ea30d65d60dfee10794405738cbe7e8c98"')
+        buildConfigField("String", "TOKEN_SEARCH", '"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"')
+        buildConfigField("String", "TOKEN_FOLLOWER", '"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"')
+        buildConfigField("String", "GITHUB_FOLLOWING", '"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"')
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.0-beta02'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.0-beta02'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.0-beta02'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.0-beta02'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.datastore:datastore-core:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    testImplementation 'org.mockito:mockito-core:3.6.0'
+    testImplementation 'org.mockito:mockito-inline:3.6.0'
+
+    //ViewPage Item
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //Image Item
+    implementation 'me.relex:circleindicator:2.1.6'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //AsyncItem
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation "android.arch.work:work-runtime:1.0.1"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.4.0'
+
+    //DataStore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0"
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
+
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    // Room
+    implementation 'androidx.room:room-runtime:2.3.0'
+    kapt 'androidx.room:room-compiler:2.3.0'
+
+    //Netwrk
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    implementation 'com.amitshekhar.android:jackson-android-networking:1.0.2'
+
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">InstaUser</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_searh">Search</string>
+    <string name="title_About">About</string>
+
+    <!--Content not View-->
+    <string name="username">UserName</string>
+    <string name="banner_content">Banner Content</string>
+    <string name="imagefollower">ImageFollower</string>
+    <string name="tombol">Tombol</string>
+    <string name="imagelike">imagelike</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="type_account">Type Account</string>
+
+
+    <string name="full_name">Full Name</string>
+    <string name="location">Location</string>
+    <string name="blog_and_website">Blog and Website</string>
+    <string name="language">Language</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="Error">Error</string>
+
+    <!--Alert View-->
+    <string name="title_alert">Not Connection</string>
+    <string name="message_alert">Check your connection and try again</string>
+    <string name="close">Close</string>
+    <string name="try_again">Try Again</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="favorite">Favorite</string>
+    <string name="no_item_favorite">No Item Favorite !!</string>
+    <string name="Fav_succes">added successfully</string>
+    <string name="fav_delete">successfully deleted</string>
+    <string name="error_message">An error occurred, please try again</string>
+    <string name="error_code">Error Code</string>
+    <string name="Favorited">Favorited</string>
+    <string name="Follower">Follower</string>
+    <string name="Following">Following</string>
+    <string name="nothing">Nothing to look</string>
+    <string name="not_found">Not found</string>
+    <string name="All">All List</string>
+    <string name="title_activity_list_all">listAllActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="copyright_ataiman30">©Copyright AtaIman30</string>
+
+
+</resources>

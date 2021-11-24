@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#AEC2BD</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#E1DEDE</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryDarkColor</item>
+
+        <item name="android:colorBackground">#FAF2F2</item>
+        <item name="colorOnBackground">#CD9B9B</item>
+
+        <item name="colorSurface">@color/colorBackground</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorError">@color/colorPrimary</item>
+        <item name="colorOnError">@color/primaryColor</item>
+
+        <item name="actionBarStyle">@style/Theme.MyApp.Toolbar</item>
+        <item name="actionBarTheme">@color/colorPrimaryDark</item>
+        <item name="actionBarPopupTheme">@color/colorPrimaryDark</item>
+
+        
+
+    </style>
+
+    <style name="Theme.MyApp.Toolbar" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:windowTitleSize">5sp</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="elevation">4dp</item>
+        <item name="titleTextStyle">@color/black</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="titleTextColor">@color/black</item>
+    </style>
+
+    <style name="Theme.MyApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
